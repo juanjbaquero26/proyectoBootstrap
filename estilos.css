@@ -1,0 +1,57 @@
+.hach{
+    background-color:black;
+    color: white;
+}
+.espacio{
+    margin-left: 10px;
+}
+.margenes{
+border: black solid 1px;
+}
+.colorfondo{
+    background-color: gray;
+}
+.foot{
+    background-color: grey;
+    color: white;
+}
+aside a{
+    display: inline-block;
+    margin-left: 20px;
+}
+.derecha{
+    background-color: white;
+}
+.just{
+    display: block;
+}
+.hola{
+    margin-top:  30px;
+    margin-bottom: 30px;
+}
+.marge{
+    border: black solid 0px;
+}
+@media screen and (max-width:768px){
+    main{
+        text-align: center;
+    }
+    .colorfondo{
+        background-color: white;
+    }
+    .derecha{
+        text-align: right;
+    }
+    .just{
+        display: inline-block;
+    }
+    .hola{
+        margin-top:  0px;
+        margin-bottom: 0px;
+    
+    }
+    .marge{
+        border: black solid 1px;
+    }
+    
+}
